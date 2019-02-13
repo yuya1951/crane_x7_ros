@@ -29,4 +29,6 @@
     <arg name="use_gui" default="$(arg use_gui)" />
   </include>
 
+  <include file="$(find crane_x7_examples)/launch/joystick_example.launch"/>
+
 </launch>

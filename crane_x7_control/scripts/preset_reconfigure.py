@@ -95,6 +95,7 @@ class PRESET_RECONFIGURE:
         for conf in self.reconfigure:
             conf["client"].update_configuration( {"position_p_gain":self.preset_list[no.data][joint_no]["p_gain"],"position_i_gain":self.preset_list[no.data][joint_no]["i_gain"],"position_d_gain":self.preset_list[no.data][joint_no]["d_gain"]} )
             joint_no = joint_no + 1
+            rospy.sleep(0.1)
 
 
 if __name__ == '__main__':
