@@ -320,7 +320,7 @@ if __name__ == '__main__':
     rospy.init_node("joystick_example")
 
     # wait for move_group startup
-    rospy.sleep(5.0)
+    rospy.sleep(10.0)
 
     joy_wrapper = JoyWrapper()
 
