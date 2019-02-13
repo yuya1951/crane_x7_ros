@@ -182,20 +182,26 @@
     <!-- Main link -->
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.0275" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/base_fixed_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.055" radius="0.05" />
         </geometry>
+        <!-- <geometry>                                                                          -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/base_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                               -->
+        <!-- </geometry>                                                                         -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.0275" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/base_fixed_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.055" radius="0.05" />
         </geometry>
+        <!-- <geometry>                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                  -->
+        <!-- </geometry>                                                                            -->
       </collision>
 
       <inertial>
@@ -223,20 +229,26 @@
       params="name color vlimit llimit ulimit attached_link">
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 ${M_PI}"/>
+        <origin xyz="0 0 0.06" rpy="${M_PI/2} 0 ${M_PI}"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/base_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.045" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/base_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                  -->
+        <!-- </geometry>                                                                            -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 ${M_PI}"/>
+        <origin xyz="0 0 0.06" rpy="${M_PI/2} 0 ${M_PI}"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/base_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.045" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                                -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                     -->
+        <!-- </geometry>                                                                               -->
       </collision>
 
       <inertial>
@@ -264,20 +276,26 @@
     params="name color joint_cover_color">
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
+        <origin xyz="0 0 0.04" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_fixed_part.stl"
-              scale="1 1 1"/>
+          <box size="0.06 0.06 0.02" />
         </geometry>
+        <!-- <geometry>                                                                                          -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                               -->
+        <!-- </geometry>                                                                                         -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
+        <origin xyz="0 0 0.04" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_fixed_part.stl"
-              scale="1 1 1"/>
+          <box size="0.06 0.06 0.02" />
         </geometry>
+        <!-- <geometry>                                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                  -->
+        <!-- </geometry>                                                                                            -->
       </collision>
 
       <inertial>
@@ -295,17 +313,23 @@
       <visual>
         <origin xyz="0 0 0" rpy="-${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                      -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                           -->
+        <!-- </geometry>                                                                     -->
         <material name="${joint_cover_color}"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="-${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                         -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                              -->
+        <!-- </geometry>                                                                        -->
       </collision>
       <inertial>
         <mass value="0.005"/>
@@ -324,17 +348,23 @@
       <visual>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                      -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                           -->
+        <!-- </geometry>                                                                     -->
         <material name="${joint_cover_color}"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                         -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                              -->
+        <!-- </geometry>                                                                        -->
       </collision>
       <inertial>
         <mass value="0.005"/>
@@ -370,20 +400,26 @@
 
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.08" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.18" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                  -->
+        <!-- </geometry>                                                                                            -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.08" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.18" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                                                -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                     -->
+        <!-- </geometry>                                                                                               -->
       </collision>
 
       <inertial>
@@ -414,20 +450,26 @@
       params="name color vlimit llimit ulimit joint_cover_color attached_link *origin">
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
+        <origin xyz="0 0 0.07" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_fixed_part.stl"
-              scale="1 1 1"/>
+          <box size="0.05 0.05 0.12" />
         </geometry>
+        <!-- <geometry>                                                                                          -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                               -->
+        <!-- </geometry>                                                                                         -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
+        <origin xyz="0 0 0.07" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_fixed_part.stl"
-              scale="1 1 1"/>
+          <box size="0.05 0.05 0.12" />
         </geometry>
+        <!-- <geometry>                                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_fixed_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                  -->
+        <!-- </geometry>                                                                                            -->
       </collision>
 
       <inertial>
@@ -453,17 +495,23 @@
       <visual>
         <origin xyz="0 0 0" rpy="-${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                      -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                           -->
+        <!-- </geometry>                                                                     -->
         <material name="${joint_cover_color}"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="-${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                         -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                              -->
+        <!-- </geometry>                                                                        -->
       </collision>
       <inertial>
         <mass value="0.005"/>
@@ -482,17 +530,23 @@
       <visual>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                      -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                           -->
+        <!-- </geometry>                                                                     -->
         <material name="${joint_cover_color}"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.005" radius="0.02" />
         </geometry>
+        <!-- <geometry>                                                                         -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+        <!--       scale="1 1 1"/>                                                              -->
+        <!-- </geometry>                                                                        -->
       </collision>
       <inertial>
         <mass value="0.005"/>
@@ -515,20 +569,26 @@
       params="name color vlimit llimit ulimit attached_link logos_definition *origin">
     <link name="${name}_link">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.07" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                  -->
+        <!-- </geometry>                                                                                            -->
         <material name="${color}"/>
       </visual>
 
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_revolute_part.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.07" radius="0.03" />
         </geometry>
+        <!-- <geometry>                                                                                                -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_revolute_part.stl" -->
+        <!--       scale="1 1 1"/>                                                                                     -->
+        <!-- </geometry>                                                                                               -->
       </collision>
 
       <inertial>
@@ -562,18 +622,24 @@
       <visual>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/wrist.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.035" radius="0.025" />
         </geometry>
+        <!-- <geometry>                                                                -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/wrist.stl" -->
+        <!--       scale="1 1 1"/>                                                     -->
+        <!-- </geometry>                                                               -->
         <material name="${color}"/>
       </visual>
 
       <collision>
         <origin xyz="0 0 0" rpy="${M_PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/collision/wrist.stl"
-              scale="1 1 1"/>
+          <cylinder length="0.035" radius="0.025" />
         </geometry>
+        <!-- <geometry>                                                                   -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/collision/wrist.stl" -->
+        <!--       scale="1 1 1"/>                                                        -->
+        <!-- </geometry>                                                                  -->
       </collision>
 
       <inertial>

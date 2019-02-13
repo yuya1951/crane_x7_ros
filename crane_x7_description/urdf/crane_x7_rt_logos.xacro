@@ -7,9 +7,12 @@
       <visual>
         <origin xyz="0 0 0" rpy="-${M_PI/2} ${M_PI/2} 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_name.stl"
-              scale="1 1 1"/>
+          <box size="0.06 0.02 0.001" />
         </geometry>
+        <!-- <geometry>                                                                           -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_name.stl" -->
+        <!--       scale="1 1 1"/>                                                                -->
+        <!-- </geometry>                                                                          -->
         <material name="logo_red">
           <color rgba="1.0 0.3 0.3 1.0"/>
         </material>
@@ -33,9 +36,12 @@
       <visual>
         <origin xyz="0 0 0" rpy="-${M_PI/2} ${M_PI/2} 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_rabbit.stl"
-              scale="1 1 1"/>
+          <box size="0.01 0.02 0.001" />
         </geometry>
+        <!-- <geometry>                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_rabbit.stl" -->
+        <!--       scale="1 1 1"/>                                                                  -->
+        <!-- </geometry>                                                                            -->
         <material name="logo_red"/>
       </visual>
       <inertial>
@@ -57,9 +63,12 @@
       <visual>
         <origin xyz="0 0 0" rpy="${M_PI/2} -${M_PI/2} 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_name.stl"
-              scale="1 1 1"/>
+          <box size="0.06 0.02 0.001" />
         </geometry>
+        <!-- <geometry>                                                                           -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_name.stl" -->
+        <!--       scale="1 1 1"/>                                                                -->
+        <!-- </geometry>                                                                          -->
         <material name="logo_red"/>
       </visual>
       <inertial>
@@ -81,9 +90,12 @@
       <visual>
         <origin xyz="0 0 0" rpy="${M_PI/2} -${M_PI/2} 0"/>
         <geometry>
-          <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_rabbit.stl"
-              scale="1 1 1"/>
+          <box size="0.01 0.02 0.001" />
         </geometry>
+        <!-- <geometry>                                                                             -->
+        <!--   <mesh filename="package://crane_x7_description/meshes/visual/rtcorp_logo_rabbit.stl" -->
+        <!--       scale="1 1 1"/>                                                                  -->
+        <!-- </geometry>                                                                            -->
         <material name="logo_red"/>
       </visual>
       <inertial>
