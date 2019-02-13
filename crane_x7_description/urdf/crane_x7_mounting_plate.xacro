@@ -26,16 +26,16 @@
         <material name="${color}"/>
       </visual>
 
-      <collision>
-        <origin xyz="0 0 0.0025" rpy="0 0 0"/>
-        <geometry>
-          <cylinder length="0.005" radius="0.05" />
-        </geometry>
-        <!-- <geometry>                                                                            -->
-        <!--   <mesh filename="package://crane_x7_description/meshes/collision/mounting_plate.stl" -->
-        <!--       scale="1 1 1"/>                                                                 -->
-        <!-- </geometry>                                                                           -->
-      </collision>
+      <!-- <collision>                                                                                      -->
+      <!--   <origin xyz="0 0 0.0025" rpy="0 0 0"/>                                                         -->
+      <!--   <geometry>                                                                                     -->
+      <!--     <cylinder length="0.005" radius="0.05" />                                                    -->
+      <!--   </geometry>                                                                                    -->
+      <!--   <!-- <geometry>                                                                            --> -->
+      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/mounting_plate.stl" --> -->
+      <!--   <!--       scale="1 1 1"/>                                                                 --> -->
+      <!--   <!-- </geometry>                                                                           --> -->
+      <!-- </collision>                                                                                     -->
 
       <inertial>
         <mass value="0.001"/>

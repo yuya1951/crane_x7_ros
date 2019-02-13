@@ -19,16 +19,16 @@
         <material name="${color}"/>
       </visual>
 
-      <collision>
-        <origin xyz="0 0 0.01" rpy="0 0 0"/>
-        <geometry>
-          <cylinder length="0.005" radius="0.03" />
-        </geometry>
-        <!-- <geometry>                                                                                              -->
-        <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_actuator.stl" -->
-        <!--       scale="1 1 1"/>                                                                                   -->
-        <!-- </geometry>                                                                                             -->
-      </collision>
+      <!-- <collision>                                                                                                        -->
+      <!--   <origin xyz="0 0 0.01" rpy="0 0 0"/>                                                                             -->
+      <!--   <geometry>                                                                                                       -->
+      <!--     <cylinder length="0.005" radius="0.03" />                                                                      -->
+      <!--   </geometry>                                                                                                      -->
+      <!--   <!-- <geometry>                                                                                              --> -->
+      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_actuator.stl" --> -->
+      <!--   <!--       scale="1 1 1"/>                                                                                   --> -->
+      <!--   <!-- </geometry>                                                                                             --> -->
+      <!-- </collision>                                                                                                       -->
 
       <inertial>
         <mass value="0.119807"/>
@@ -60,16 +60,16 @@
         <material name="${color}"/>
       </visual>
 
-      <collision>
-        <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>
-        <geometry>
-          <box size="0.02 0.07 0.05" />
-        </geometry>
-        <!-- <geometry>                                                                                              -->
-        <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_a.stl" -->
-        <!--       scale="1 1 1"/>                                                                                   -->
-        <!-- </geometry>                                                                                             -->
-      </collision>
+      <!-- <collision>                                                                                                        -->
+      <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>                                                                     -->
+      <!--   <geometry>                                                                                                       -->
+      <!--     <box size="0.02 0.07 0.05" />                                                                                  -->
+      <!--   </geometry>                                                                                                      -->
+      <!--   <!-- <geometry>                                                                                              --> -->
+      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_a.stl" --> -->
+      <!--   <!--       scale="1 1 1"/>                                                                                   --> -->
+      <!--   <!-- </geometry>                                                                                             --> -->
+      <!-- </collision>                                                                                                       -->
 
       <inertial>
         <mass value="0.015617"/>
@@ -102,16 +102,16 @@
         <material name="${color}"/>
       </visual>
 
-      <collision>
-        <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>
-        <geometry>
-          <box size="0.02 0.07 0.05" />
-        </geometry>
-        <!-- <geometry>                                                                                              -->
-        <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_b.stl" -->
-        <!--       scale="1 1 1"/>                                                                                   -->
-        <!-- </geometry>                                                                                             -->
-      </collision>
+      <!-- <collision>                                                                                                        -->
+      <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>                                                                     -->
+      <!--   <geometry>                                                                                                       -->
+      <!--     <box size="0.02 0.07 0.05" />                                                                                  -->
+      <!--   </geometry>                                                                                                      -->
+      <!--   <!-- <geometry>                                                                                              --> -->
+      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_b.stl" --> -->
+      <!--   <!--       scale="1 1 1"/>                                                                                   --> -->
+      <!--   <!-- </geometry>                                                                                             --> -->
+      <!-- </collision>                                                                                                       -->
 
       <inertial>
         <mass value="0.014417"/>
