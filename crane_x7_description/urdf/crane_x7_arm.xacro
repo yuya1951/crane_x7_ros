@@ -198,10 +198,10 @@
       <!--   <geometry>                                                                                      -->
       <!--     <cylinder length="0.055" radius="0.05" />                                                     -->
       <!--   </geometry>                                                                                     -->
-      <!--   <!-- <geometry>                                                                             --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_fixed_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                  --> -->
-      <!--   <!-- </geometry>                                                                            --> -->
+      <!-- <geometry>                                                                             -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_fixed_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                  -->
+      <!-- </geometry>                                                                            -->
       <!-- </collision>                                                                                      -->
 
       <inertial>
@@ -245,10 +245,10 @@
       <!--   <geometry>                                                                                         -->
       <!--     <cylinder length="0.045" radius="0.03" />                                                        -->
       <!--   </geometry>                                                                                        -->
-      <!--   <!-- <geometry>                                                                                --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_revolute_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                     --> -->
-      <!--   <!-- </geometry>                                                                               --> -->
+      <!-- <geometry>                                                                                -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/base_revolute_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                     -->
+      <!-- </geometry>                                                                               -->
       <!-- </collision>                                                                                         -->
 
       <inertial>
@@ -292,10 +292,10 @@
       <!--   <geometry>                                                                                                      -->
       <!--     <box size="0.06 0.06 0.02" />                                                                                 -->
       <!--   </geometry>                                                                                                     -->
-      <!--   <!-- <geometry>                                                                                             --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_fixed_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                                  --> -->
-      <!--   <!-- </geometry>                                                                                            --> -->
+      <!-- <geometry>                                                                                             -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_fixed_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                                  -->
+      <!-- </geometry>                                                                                            -->
       <!-- </collision>                                                                                                      -->
 
       <inertial>
@@ -326,10 +326,10 @@
       <!--   <geometry>                                                                                  -->
       <!--     <cylinder length="0.005" radius="0.02" />                                                 -->
       <!--   </geometry>                                                                                 -->
-      <!--   <!-- <geometry>                                                                         --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                              --> -->
-      <!--   <!-- </geometry>                                                                        --> -->
+      <!-- <geometry>                                                                         -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+      <!--       scale="1 1 1"/>                                                              -->
+      <!-- </geometry>                                                                        -->
       <!-- </collision>                                                                                  -->
       <inertial>
         <mass value="0.005"/>
@@ -361,10 +361,10 @@
       <!--   <geometry>                                                                                  -->
       <!--     <cylinder length="0.005" radius="0.02" />                                                 -->
       <!--   </geometry>                                                                                 -->
-      <!--   <!-- <geometry>                                                                         --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                              --> -->
-      <!--   <!-- </geometry>                                                                        --> -->
+      <!-- <geometry>                                                                         -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+      <!--       scale="1 1 1"/>                                                              -->
+      <!-- </geometry>                                                                        -->
       <!-- </collision>                                                                                  -->
       <inertial>
         <mass value="0.005"/>
@@ -416,10 +416,10 @@
       <!--   <geometry>                                                                                                         -->
       <!--     <cylinder length="0.18" radius="0.03" />                                                                         -->
       <!--   </geometry>                                                                                                        -->
-      <!--   <!-- <geometry>                                                                                                --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_revolute_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                                     --> -->
-      <!--   <!-- </geometry>                                                                                               --> -->
+      <!-- <geometry>                                                                                                -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_revolute_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                                     -->
+      <!-- </geometry>                                                                                               -->
       <!-- </collision>                                                                                                         -->
 
       <inertial>
@@ -466,10 +466,10 @@
       <!--   <geometry>                                                                                                      -->
       <!--     <box size="0.05 0.05 0.12" />                                                                                 -->
       <!--   </geometry>                                                                                                     -->
-      <!--   <!-- <geometry>                                                                                             --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_fixed_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                                  --> -->
-      <!--   <!-- </geometry>                                                                                            --> -->
+      <!-- <geometry>                                                                                             -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_fixed_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                                  -->
+      <!-- </geometry>                                                                                            -->
       <!-- </collision>                                                                                                      -->
 
       <inertial>
@@ -508,10 +508,10 @@
       <!--   <geometry>                                                                                  -->
       <!--     <cylinder length="0.005" radius="0.02" />                                                 -->
       <!--   </geometry>                                                                                 -->
-      <!--   <!-- <geometry>                                                                         --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                              --> -->
-      <!--   <!-- </geometry>                                                                        --> -->
+      <!-- <geometry>                                                                         -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+      <!--       scale="1 1 1"/>                                                              -->
+      <!-- </geometry>                                                                        -->
       <!-- </collision>                                                                                  -->
       <inertial>
         <mass value="0.005"/>
@@ -543,10 +543,10 @@
       <!--   <geometry>                                                                                  -->
       <!--     <cylinder length="0.005" radius="0.02" />                                                 -->
       <!--   </geometry>                                                                                 -->
-      <!--   <!-- <geometry>                                                                         --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                              --> -->
-      <!--   <!-- </geometry>                                                                        --> -->
+      <!-- <geometry>                                                                         -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/joint_cover.stl" -->
+      <!--       scale="1 1 1"/>                                                              -->
+      <!-- </geometry>                                                                        -->
       <!-- </collision>                                                                                  -->
       <inertial>
         <mass value="0.005"/>
@@ -585,10 +585,10 @@
       <!--   <geometry>                                                                                                         -->
       <!--     <cylinder length="0.07" radius="0.03" />                                                                         -->
       <!--   </geometry>                                                                                                        -->
-      <!--   <!-- <geometry>                                                                                                --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_revolute_part.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                                                     --> -->
-      <!--   <!-- </geometry>                                                                                               --> -->
+      <!-- <geometry>                                                                                                -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_revolute_part.stl" -->
+      <!--       scale="1 1 1"/>                                                                                     -->
+      <!-- </geometry>                                                                                               -->
       <!-- </collision>                                                                                                         -->
 
       <inertial>
@@ -636,10 +636,10 @@
       <!--   <geometry>                                                                            -->
       <!--     <cylinder length="0.035" radius="0.025" />                                          -->
       <!--   </geometry>                                                                           -->
-      <!--   <!-- <geometry>                                                                   --> -->
-      <!--   <!--   <mesh filename="package://crane_x7_description/meshes/collision/wrist.stl" --> -->
-      <!--   <!--       scale="1 1 1"/>                                                        --> -->
-      <!--   <!-- </geometry>                                                                  --> -->
+      <!-- <geometry>                                                                   -->
+      <!--   <mesh filename="package://crane_x7_description/meshes/collision/wrist.stl" -->
+      <!--       scale="1 1 1"/>                                                        -->
+      <!-- </geometry>                                                                  -->
       <!-- </collision>                                                                            -->
 
       <inertial>
