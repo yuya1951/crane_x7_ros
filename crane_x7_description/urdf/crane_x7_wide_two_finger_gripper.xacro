@@ -7,17 +7,17 @@
   <xacro:macro name="crane_x7_wide_two_finger_gripper"
     params="name color vlimit">
     <link name="${name}_base_link">
-      <visual>
-        <origin xyz="0 0 0.01" rpy="0 0 0"/>
-        <geometry>
-          <cylinder length="0.005" radius="0.03" />
-        </geometry>
+      <!-- <visual>                                      -->
+      <!--   <origin xyz="0 0 0.01" rpy="0 0 0"/>        -->
+      <!--   <geometry>                                  -->
+      <!--     <cylinder length="0.005" radius="0.03" /> -->
+      <!--   </geometry>                                 -->
         <!-- <geometry>                                                                                           -->
         <!--   <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_actuator.stl" -->
         <!--       scale="1 1 1"/>                                                                                -->
         <!-- </geometry>                                                                                          -->
-        <material name="${color}"/>
-      </visual>
+      <!--   <material name="${color}"/> -->
+      <!-- </visual>                     -->
 
       <!-- <collision>                                                                                                        -->
       <!--   <origin xyz="0 0 0.01" rpy="0 0 0"/>                                                                             -->
@@ -48,17 +48,17 @@
     </joint>
 
     <link name="${name}_finger_a_link">
-      <visual>
-        <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>
-        <geometry>
-          <box size="0.02 0.07 0.05" />
-        </geometry>
+      <!-- <visual>                                       -->
+      <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/> -->
+      <!--   <geometry>                                   -->
+      <!--     <box size="0.02 0.07 0.05" />              -->
+      <!--   </geometry>                                  -->
         <!-- <geometry>                                                                                           -->
         <!--   <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_finger_a.stl" -->
         <!--       scale="1 1 1"/>                                                                                -->
         <!-- </geometry>                                                                                          -->
-        <material name="${color}"/>
-      </visual>
+      <!--   <material name="${color}"/> -->
+      <!-- </visual>                     -->
 
       <!-- <collision>                                                                                                        -->
       <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>                                                                     -->
@@ -90,17 +90,17 @@
     </joint>
 
     <link name="${name}_finger_b_link">
-      <visual>
-        <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>
-        <geometry>
-          <box size="0.02 0.07 0.05" />
-        </geometry>
+      <!-- <visual>                                       -->
+      <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/> -->
+      <!--   <geometry>                                   -->
+      <!--     <box size="0.02 0.07 0.05" />              -->
+      <!--   </geometry>                                  -->
         <!-- <geometry>                                                                                           -->
         <!--   <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_finger_b.stl" -->
         <!--       scale="1 1 1"/>                                                                                -->
         <!-- </geometry>                                                                                          -->
-        <material name="${color}"/>
-      </visual>
+      <!--   <material name="${color}"/> -->
+      <!-- </visual>                     -->
 
       <!-- <collision>                                                                                                        -->
       <!--   <origin xyz="0 0 0.03" rpy="${M_PI/2} 0 0"/>                                                                     -->
